@@ -4,7 +4,7 @@
   --liteorange: #fb8d22;
   --pink: #ff0541;
   --brightblue: #00efef;
-  --litepink: #ffc9d6;
+  --litepink: #fcd3d9;
 }
 
 .font-link {
@@ -46,7 +46,7 @@ body {
 nav {
   padding-top: 5px;
   margin-right: 35px;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-family: "Space Mono";
   color:var(--liteorange);
   text-decoration: none;
@@ -59,10 +59,7 @@ a {
   }
 
   
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+
   
 
   #box{
@@ -82,11 +79,11 @@ a {
   }
   
   h2 {
-  font-family: 'NewYork', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #137c78;
+  font-family: 'Poppins', sans-serif;
+  color: var(--pink);
   font-size: 2.12rem;
   font-weight: bold;
-  margin-left: 12px;
+  margin-left: 15px;
   }
   
   #about {
@@ -98,8 +95,8 @@ a {
   
   #border {
   display: inline;
-  border-left: 4px solid #137c78;
-  margin: 2px;
+  border-left: 4px solid var(--liteorange);
+  margin: 4px;
   }
   
   #work {
@@ -113,13 +110,14 @@ a {
   max-width: 600px;
   border: 4px;
   border-style: solid;
-  border-color: #8ad0ce;
+  border-color: var(--pink);
   align-items: center;
   margin: 20px;
+  border-radius: 5px;
   }
   
   .about {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   color:#ed6335;
   background-color: antiquewhite;
@@ -128,7 +126,7 @@ a {
   }
   
   #title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: #C0BA6E;
   background-color: antiquewhite;
@@ -173,3 +171,10 @@ a {
   max-width: 92%;
   }
   }
+
+  #work {
+    display: flex;
+    margin-top: 100px;
+    background-color: var(--litepink);
+    /* flex-wrap: wrap; */
+    }
