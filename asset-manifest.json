@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.b22520fc.css",
+    "main.js": "/portfolio-react/static/js/main.19806608.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/ProjectTwo.png": "/portfolio-react/static/media/ProjectTwo.d5c9172fe16e244f2178.png",
+    "static/media/Dino.png": "/portfolio-react/static/media/Dino.f1fe3e8b63bb7c0b9b00.png",
+    "static/media/profilepic.jpeg": "/portfolio-react/static/media/profilepic.b32e0daebdb1c831e26b.jpeg",
+    "static/media/fruit-basket-agency-kk2eYi5M7JM-unsplash.jpg": "/portfolio-react/static/media/fruit-basket-agency-kk2eYi5M7JM-unsplash.bfee28b1d7d2b0d6219b.jpg",
+    "static/media/game.png": "/portfolio-react/static/media/game.e857a204909507345f9f.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.b22520fc.css.map": "/portfolio-react/static/css/main.b22520fc.css.map",
+    "main.19806608.js.map": "/portfolio-react/static/js/main.19806608.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b22520fc.css",
+    "static/js/main.19806608.js"
+  ]
+}
