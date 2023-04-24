@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.profile {
+max-width: 225px;
+border-radius: 50px;
+border-image: 12px;
+border-color: #C0BA6E;
+border-style: solid;
+}
+#box{
+margin-left: 55px;
+}
+/* All of this is for the work info and photos */
+
+
+.group {
+flex: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.photos {
+display:flex
+}
+
+h2 {
+font-family: 'NewYork', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #137c78;
+font-size: 2.12rem;
+font-weight: bold;
+margin-left: 12px;
+}
+
+#about {
+display: flex;
+font-size: 1rem;
+margin-right: 2rem;
+margin-top: 100px;
+}
+
+#border {
+display: inline;
+border-left: 4px solid #137c78;
+margin: 2px;
+}
+
+#work {
+display: flex;
+margin-top: 100px;
+/* flex-wrap: wrap; */
+}
+
+.dino {
+display: flex;
+max-width: 600px;
+border: 4px;
+border-style: solid;
+border-color: #8ad0ce;
+align-items: center;
+margin: 20px;
+}
+
+.about {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.25rem;
+color:#ed6335;
+background-color: antiquewhite;
+margin-left: 8px;
+text-align: center;
+}
+
+#title {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: #C0BA6E;
+background-color: antiquewhite;
+}
+.landing{
+display: flex;
+flex-wrap: wrap;
+border: 4px;
+border-style: solid;
+max-width: 300px;
+border-color: #ed6335;
+margin: 10px;
+}
+
+.divider {
+background-color:#137c78;
+height: 3px;
+margin-top: 100px;
+
+}
+#contact {
+display: flex;
+text-decoration: none;
+justify-content: space-around;
+align-items: center;
+font-size: 1.25rem;
+color:#ed6335;
+background-color: antiquewhite;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.photos{ 
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+.group {
+width: 90%;
+min-width:80%;
+max-width: 92%;
+}
+}
+
