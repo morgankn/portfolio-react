@@ -1,26 +1,28 @@
 import React, { useState } from 'react';
 // import { motion } from 'framer-motion';
 import game from '../assets/images/game.png';
-import projTwo from '../assets/images/ProjectTwo.png';
+import projOne from '../assets/images/projectOne.png';
+import image1 from '../assets/images/Dino.png';
+import horiseon from '../assets/images/HoriseonLanding.png';
 
-function Card(){
-   return <div className="group">
-              <div>
-                <img className="landing" src={game} alt="Coding Quiz" />
-                <a href="https://morgankn.github.io/coding-quiz"> </a>
-              </div>
-               <div>
-                <img className="landing" src={projTwo} alt="Project Two Homepage" />
-              </div> 
-            {/* <div class="group">
-              <div>
-                <img class="landing" src="assets/travel_site.png" alt="Travel Homepage" />
-              </div>
-              <div>
-                <a href="https://morgankn.github.io/Horiseon-homepage/"><img class="landing" src="assets/HoriseonLanding.png" alt="Horiseon Landing Page" /></a>
-              </div> */}
-            </div>
-      
+
+function Card() {
+  return <div className="group">
+    <div>
+      <a href="https://morgankn.github.io/coding-quiz"> <img className="landing" src={game} alt="Coding Quiz" /></a>
+    </div>
+    <div>
+      <img className="landing" src={image1} alt="Dino Page" />
+    </div>
+    <div class="group">
+      <div>
+      <a href="https://morgankn.github.io/Horiseon-homepage/"><img class="landing" src={projOne} alt="Project One Homepage" /></a>
+      </div>
+      <div>
+        <a href="https://morgankn.github.io/Horiseon-homepage/"><img class="landing" src={horiseon} alt="Horiseon Landing Page" /></a>
+      </div>
+    </div>
+    </div>  
 }
 
-export default Card;
+    export default Card;

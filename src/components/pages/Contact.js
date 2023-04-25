@@ -23,36 +23,39 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(name.length < 1){
-      setErrorMessage("That isn't valid")
+      setErrorMessage(alert(`Name isn't long enough`))
     } else if(!email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
     )){
-      setErrorMessage("Not good email")
+      setErrorMessage(alert(`Not a valid email`))
     }else if(message.length < 10){
-      setErrorMessage("Not enough info")
-    }
+      setErrorMessage(alert(`Message needs to be longer`))
+    }    
+    alert(`Thank you ${name}, we'll get back to you soon!`);
+    setName('');
+    setEmail('');
+    setMessage('');
   }
-  //if no cursor in text box then error message field is required 
-  //function to handle change 
+
 
   return (
-    <section>
-      <h2>Contact Form</h2>
+    <section className='container'>
+      <h2 className="contact">Contact</h2>
       <form className="form" onSubmit={handleSubmit}>
-        <input
+        <input className="feedback-input"
           value={name}
           name="name"
           onChange={handleInputChange}
           type="name"
           placeholder="name"
         />
-          <input
+          <input className="feedback-input"
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
             placeholder="email"
           />
-            <input
+            <input className="feedback-input" id='textarea'
               value={message}
               name="message"
               onChange={handleInputChange}

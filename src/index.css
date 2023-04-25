@@ -28,7 +28,7 @@ margin-left: 55px;
 /* All of this is for the work info and photos */
 
 
-.group {
+ .group {
 flex: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -62,7 +62,7 @@ margin: 2px;
 #work {
 display: flex;
 margin-top: 100px;
-/* flex-wrap: wrap; */
+/* flex-wrap: wrap;
 }
 
 .dino {
@@ -129,5 +129,5 @@ width: 90%;
 min-width:80%;
 max-width: 92%;
 }
-}
+} 
 

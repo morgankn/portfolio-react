@@ -1,26 +1,41 @@
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Info from './components/Info';
-import About from './components/About';
-import Project from './components/Project';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
-// import background from './assets/background.jpg';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Portfolio from './components/pages/Portfolio';
 
-function App() {
-  return (
-    <div className="App">
-     <Navbar />
-     <About />
-     <Info />
-     <Project />
-     <Contact />
-     <Footer />
+  export default function App() {
+    const [currentPage, setCurrentPage] = useState('');
+  
+    const renderPage = () => {
+      if (currentPage === 'About') {
+        return <About />;
+      }
+      if (currentPage === 'Contact') {
+        return <Contact />;
+      }
+      if (currentPage === 'Portfolio') {
+        return <Portfolio />;
+      }
+      // return <Resume />;
+    };
+  
+    const handlePageChange = (page) => setCurrentPage(page);
+  
+    return (
+      <div className='App'>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Info />
+      {renderPage()}
+      <br />
+      <Footer />
       </div>
-     
-      );
-}
+    );
+  }
+  
 
-      export default App;
+
+

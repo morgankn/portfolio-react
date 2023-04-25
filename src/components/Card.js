@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import image1 from '../assets/images/Dino.png';
+import projTwo from '../assets/images/ProjectTwo.png';
 
 function Card(){
     const [rotate, setRotate] = useState(false);
@@ -10,9 +10,9 @@ function Card(){
             setRotate(!rotate);
         }}
         className='photos'>
-              <img class="dino" src={image1} alt="screenshot of Dino Project" />
+              <img class="dino" src={projTwo} alt="homescreen for Project Two" />
             </motion.div>
-            <figcaption id="title"><p>Projects made with HTML, CSS, JS, Node, Express, SQL</p>
+            <figcaption id="title"><p>Created with Node, CSS, MySQL, Javascript, Handlebars</p>
             <a href="https://enigmatic-inlet-20421.herokuapp.com/">Project 2</a></figcaption>         
     </div>
     
