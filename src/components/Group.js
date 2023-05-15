@@ -5,7 +5,6 @@ import projOne from '../assets/images/projectOne.png';
 import image1 from '../assets/images/Dino.png';
 import horiseon from '../assets/images/HoriseonLanding.png';
 
-
 function Card() {
   return <div className="group">
     <div>
